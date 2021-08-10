@@ -15824,7 +15824,7 @@ fieldset:disabled .btn {
 img {
   height: auto;
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .form-control:focus, .form-select:focus {
