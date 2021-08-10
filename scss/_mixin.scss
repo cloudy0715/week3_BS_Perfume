@@ -1,0 +1,16 @@
+
+@mixin logo {
+    display: block;
+    width: 128px;
+    height: 38px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 101%;
+    background-size: contain;
+}
+
+@mixin background_img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
